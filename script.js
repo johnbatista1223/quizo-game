@@ -54,11 +54,7 @@ function alertFunc() {
 }
 
 function showQuestion(question) {
-  // question = {
-  //   title:
-  //   choices:
-  //   answer:
-  // }
+  
   questionElement.textContent = question.title;
   answerElement.textContent = '';
  
